@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Attend and Guide (AG-Net): A Keypoints-Driven Attention-Based Deep Network for Image Recognition
+title: Attend and Guide (AG-Net) - A Keypoints-Driven Attention-Based Deep Network for Image Recognition
 description: IEEE Transaction on Image Processing 2021, Vol 30, pp. 3691-3704
 github:
   is_project_page: false
