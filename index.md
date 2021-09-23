@@ -1,5 +1,5 @@
-# Title 
-## Asish Bera, Zachary Wharton, Yonghuai Liu, Nik Bessis, Ardhendu Behera
+# Attend and Guide (AG-Net): A Keypoints-driven Attention-based Deep Network for Image Recognition 
+## Asish Bera, Zachary Wharton, Yonghuai Liu, Nik Bessis, and Ardhendu Behera
 **Department of Computer Science, Edge Hill University, United Kingdom**
 
 ### Abstract
