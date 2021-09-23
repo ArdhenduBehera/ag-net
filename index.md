@@ -1,4 +1,4 @@
-## Asish Bera, Zachary Wharton, Yonghuai Liu, Nik Bessis and Ardhendu Behera
+## Asish Bera, Zachary Wharton, Yonghuai Liu, Nik Bessis, Ardhendu Behera
 **Department of Computer Science, Edge Hill University, United Kingdom**
 
 ### Abstract
@@ -7,7 +7,7 @@ Deep Convolutional Neural Networks (CNNs) for recognizing images with distinctiv
 ### Attend and Guide (AG-Net)
 A novel method for generating sematic regions by loacalizing salient keypoints and grouping them using the Gaussian Mixture Model (GMM). These semantic regions are aimed to attain local to global contextual information involving smaller patches to larger patches to the whole image. Our AG-Net is trained in an end-to-end fashion to recognize images from these semantic regions be _learning to attend_ each region by its importance towards classification decision using a novel attention module. 
 
-![Image](1a.jpg) &nbsp; &nbsp; ![Image](1B_C.jpg)<br/>
+![Image](1a.jpg) &nbsp;&nbsp;![Image](1B_C.jpg)<br/>
 **High-level illustration of our model (left). The detailed architecture of our novel CAP (right).**
 
 1. Numbered
