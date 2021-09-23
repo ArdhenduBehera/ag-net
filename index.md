@@ -9,7 +9,7 @@ Deep Convolutional Neural Networks (CNNs) for recognizing images with distinctiv
 A novel method for generating sematic regions by loacalizing salient keypoints and grouping them using the Gaussian Mixture Model (GMM). These semantic regions are aimed to attain local to global contextual information involving smaller patches to larger patches to the whole image. Our AG-Net is trained in an end-to-end fashion to recognize images from these semantic regions be _learning to attend_ each region by its importance towards classification decision using a novel attention module. 
 
 ![Image](1a.jpg) &nbsp;&nbsp;![Image](1B_C.jpg)<br/>
-**High-level illustration of our model (left). The detailed architecture of our novel CAP (right).**
+**Proposed keypoint-driven attention-based visual recognition model (AG-Net): (a) Used for recognizing different fine-grained activities in still images (e.g., the input image is classified as driving safely activity). (b) Detailed Self-Attention block adapted from SAGAN. (c) The proposed residual connection to the Squeeze-and-Excitation block is used for pooling features from semantic regions.**
 
 1. Numbered
 2. List
