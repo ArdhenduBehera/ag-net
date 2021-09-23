@@ -19,7 +19,8 @@ A novel method for generating sematic regions by loacalizing salient keypoints a
 **Climbing action from Stanford-40 dataset: Original image &#8594; detected SIFT keypoints &#8594; clustered keypoints &#8594; bounding boxes enclosing semantic regions. Drinking image from AUC-V2 datasetr: Original image &#8594; detected two primary semantic regions (red and green) &#8594;  secondary semantic regions (blue) along with the
 primary ones.**
 
-  <img src="Drinking_V2.jpg" alt="drawing" height="150"/>&nbsp;
+<p align="center"><img src="1_climbing_288.jpg" alt="drawing" height="100"/>&nbsp;<img src="blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="feeding_a_horse_064.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;<img src="1_climbing_288.jpg" alt="drawing" height="100"/>&nbsp;<img src="blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="feeding_a_horse_064.jpg" alt="drawing" height="100"/>
+ </p>
 
 **Bold** and _Italic_ and `Code` text
 
