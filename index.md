@@ -19,21 +19,27 @@ A novel method for generating sematic regions by loacalizing salient keypoints a
 **Climbing action from Stanford-40 dataset: Original image &#8594; detected SIFT keypoints &#8594; clustered keypoints &#8594; bounding boxes enclosing semantic regions. Drinking image from AUC-V2 datasetr: Original image &#8594; detected two primary semantic regions (red and green) &#8594;  secondary semantic regions (blue) along with the
 primary ones.**
 
-<p align="center"><img src="1_climbing_288.jpg" alt="drawing" height="100"/>&nbsp;<img src="blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="feeding_a_horse_064.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="Norm_Play_Guitar_141_0.jpg" alt="drawing" height="100"/>&nbsp;<img src="Norm_With_Guitar_161_0.jpg" alt="drawing" height="100"/>&nbsp;<img src="Norm_Play_Violin_131_0.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="C1_186_V2.jpg" alt="drawing" height="100"/>&nbsp;<img src="C1_197_V2.jpg" alt="drawing" height="100"/>&nbsp;<img src="C1_278_V2.jpg" alt="drawing" height="100"/><br/>
-<img src="output1_6_climbing_288.jpg" alt="drawing" height="100"/>&nbsp;<img src="output0_6_blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="output3_6_feeding_a_horse_064.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="output0_6_blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="output3_6_feeding_a_horse_064.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="output0_6_blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="output3_6_feeding_a_horse_064.jpg" alt="drawing" height="100"/> 
- </p>
+<p align="center"><img src="1_climbing_288.jpg" alt="drawing" height="100"/>&nbsp;<img src="blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="feeding_a_horse_064.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="Norm_Play_Guitar_141_0.jpg" alt="drawing" height="100"/>&nbsp;<img src="Norm_With_Guitar_161_0.jpg" alt="drawing" height="100"/>&nbsp;<img src="Norm_Play_Violin_131_0.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="C1_186_V2.jpg" alt="drawing" height="100"/>&nbsp;<img src="C1_197_V2.jpg" alt="drawing" height="100"/>&nbsp;<img src="C1_278_V2.jpg" alt="drawing" height="100"/><br/><img src="output1_6_climbing_288.jpg" alt="drawing" height="100"/>&nbsp;<img src="output0_6_blowing_bubbles_155.jpg" alt="drawing" height="100"/>&nbsp;<img src="output3_6_feeding_a_horse_064.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;<img src="output1_5_Norm_Play_Guitar_141_0.jpg" alt="drawing" height="100"/>&nbsp;<img src="output6_7_Norm_With_Guitar_161_0.jpg" alt="drawing" height="100"/><img src="output3_5_Norm_Play_Violin_131_0.jpg" alt="drawing" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="output1_2_C1_186_V2.jpg" alt="drawing" height="100"/>&nbsp;<img src="output4_6_C1_197_V2.jpg" alt="drawing" height="100"/><img src="output2_3_C1_278_V2.jpg" alt="drawing" height="100"/></p>
 
-**Bold** and _Italic_ and `Code` text
+**Visualization of class activation maps using the Grad-CAM. The top row describes three distinctive actions from: (a) Stanford-40, (b) PPMI-24, and (c) AUC-V2. The bottom row depicts the corresponding activation map of salient regions on which we have overlaid only three semantic regions for clarity. It contains two primary semantic regions (enclosed with red and green bounding-boxes) along with a secondary region (enclosed with blue bounding-box) which is derived from those two primaries.**
 
-[Link](url) and ![Image](src)
+### Paper and Supplementary Information
+Extended version of the accepted paper in [Edge Hill University Repository](https://research.edgehill.ac.uk/ws/files/37514277/IEEE_TIP_AG_Net.pdf).
+
+[Supplementary Document](Supplementary-TIP-22638-2020.final.pdf)
+### Bibtex
+```markdown
+@article{bera2021attend,
+  title={Attend and Guide (AG-Net): A Keypoints-Driven Attention-Based Deep Network for Image Recognition},
+  author={Bera, Asish and Wharton, Zachary and Liu, Yonghuai and Bessis, Nik and Behera, Ardhendu},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={3691--3704},
+  year={2021},
+  publisher={IEEE}
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Acknowledgements
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ArdhenduBehera/ag-net/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This research was supported by the UKIERI (CHARM) under grant DST UKIERI-2018-19-10. The GPU is kindly donated by the NVIDIA Corporation.
