@@ -8,10 +8,18 @@ Deep Convolutional Neural Networks (CNNs) for recognizing images with distinctiv
 ### Attend and Guide (AG-Net)
 A novel method for generating sematic regions by loacalizing salient keypoints and grouping them using the Gaussian Mixture Model (GMM). These semantic regions are aimed to attain local to global contextual information involving smaller patches to larger patches to the whole image. Our AG-Net is trained in an end-to-end fashion to recognize images from these semantic regions be _learning to attend_ each region by its importance towards classification decision using a novel attention module. 
 
-![Image](1a.jpg) &nbsp;&nbsp;![Image](1B_C.jpg)<br/>
+<p align="center">
+<img src="1a.jpg"/>&nbsp;&nbsp;<img src="1B_C.jpg"/></p>
+
 **Proposed keypoint-driven attention-based visual recognition model (AG-Net): (a) Used for recognizing different fine-grained activities in still images (e.g., the input image is classified as driving safely activity). (b) Detailed Self-Attention block adapted from SAGAN. (c) The proposed residual connection to the Squeeze-and-Excitation block is used for pooling features from semantic regions.**
 
-![Image](1_climbing_288.jpg)![Image](2_sift_keypoints_climbing.jpg)![Image](3grp_keypoints_climbing.jpg)
+<p align="center">
+  <img src="1_climbing_288.jpg" alt="drawing" height="120"/>&nbsp;<img src="2_sift_keypoints_climbing.jpg" alt="drawing" height="120"/>&nbsp;<img src="3grp_keypoints_climbing.jpg" alt="drawing" height="120"/>&nbsp;<img src="4_output_climbing.jpg" alt="drawing" height="120"/>&nbsp;&nbsp;&nbsp;<img src="Drinking_V2.jpg" alt="drawing" height="120"/>&nbsp;<img src="Drinking_V2_PRs.jpg" alt="drawing" height="120"/>&nbsp;<img src="Drinking_V2_SRs.jpg" alt="drawing" height="120"/></p>  
+
+**Climbing action from Stanford-40 dataset: Original image &#8594; detected SIFT keypoints &#8594; clustered keypoints &#8594; bounding boxes enclosing semantic regions. Drinking image from AUC-V2 datasetr: Original image &#8594; detected two primary semantic regions (red and green) &#8594;  secondary semantic regions (blue) along with the
+primary ones.**
+
+  <img src="Drinking_V2.jpg" alt="drawing" height="150"/>&nbsp;
 
 **Bold** and _Italic_ and `Code` text
 
