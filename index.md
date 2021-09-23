@@ -11,8 +11,9 @@ A novel method for generating sematic regions by loacalizing salient keypoints a
 ![Image](1a.jpg) &nbsp;&nbsp;![Image](1B_C.jpg)<br/>
 **Proposed keypoint-driven attention-based visual recognition model (AG-Net): (a) Used for recognizing different fine-grained activities in still images (e.g., the input image is classified as driving safely activity). (b) Detailed Self-Attention block adapted from SAGAN. (c) The proposed residual connection to the Squeeze-and-Excitation block is used for pooling features from semantic regions.**
 
-1. Numbered
-2. List
+<img src="1_climbing_288.jpg" alt="image" height="150"/> &nbsp;<img src="2_sift_keypoints_climbing.jpg" alt="image" height="150"/>
+
+[//]:![Image](1_climbing_288.jpg)![Image](2_sift_keypoints_climbing.jpg)![Image](3grp_keypoints_climbing.jpg)
 
 **Bold** and _Italic_ and `Code` text
 
